@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/table.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+
+
+
+}
+
+h1,
+h2 {
+    color: rgb(216, 69, 65);
+    font-family: fantasy;
+}
+
+
+nav a {
+    color: rgb(216, 69, 65);
+}
+
+#yes {
+    font-size: 2em;
+    border: 5px solid rgb(216, 69, 65);
+    padding: 15px;
+}
+
+
+.yes {
+    font-size: 2em;
+    border: 5px solid rgb(216, 69, 65);
+    padding: 15px;
+}
+
+a:hover {
+    color: red;
+}
+
+.item h3 {
+
+    color: white;
+
+    border-width: medium;
+    border-style: solid;
+    border-color: rgb(216, 69, 65);
+
+    width: 150px;
+    height: auto;
+}
+
+ol li {
+    color: white;
+}
+
+footer {
+    color: white;
+}
+
+@media screen and (max-width: 50em) {
+
+    header,
+    main,
+    footer,
+    form p {
+        flex-direction: column;
+    }
+
+    form input,
+    textarea {
+        margin: 2px 0;
+    }
+
+    .hero-text {
+        flex: none;
+    }
+
+    form select {
+        margin: 0;
+    }
+}
