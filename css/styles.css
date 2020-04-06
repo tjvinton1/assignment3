@@ -8,11 +8,30 @@ body {
     background-size: cover;
     background-position: center;
     min-height: 100vh;
-
-
-
 }
 
+nav {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    display: flex;
+    justify-content:flex-start;
+    
+}
+
+nav ul {
+    font-size: 40px;
+    list-style: none;
+    display: flex;
+    justify-content:flex-start;
+    padding: 0px;  
+}
+
+nav ul li {
+    padding: 20px;
+    border: 5px solid black;
+    background: grey;
+    
+    
+}
 h1,
 h2 {
     color: rgb(216, 69, 65);
@@ -23,6 +42,7 @@ h2 {
 nav a {
     color: rgb(216, 69, 65);
 }
+
 
 #yes {
     font-size: 2em;
@@ -38,7 +58,22 @@ nav a {
 }
 
 a:hover {
-    color: red;
+    color: white;
+}
+
+.item {
+    display: flex;
+    flex-direction: row;
+}
+
+.one {
+    display: flex;
+    justify-content:space-around;
+}
+
+.item img {
+    width: 150px;
+    height: 100px;
 }
 
 .item h3 {
